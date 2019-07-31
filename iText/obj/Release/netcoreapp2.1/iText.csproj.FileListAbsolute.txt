@@ -1,0 +1,14 @@
+C:\Users\kxeil\source\repos\iText\iText\bin\Release\netcoreapp2.1\iText.deps.json
+C:\Users\kxeil\source\repos\iText\iText\bin\Release\netcoreapp2.1\iText.runtimeconfig.json
+C:\Users\kxeil\source\repos\iText\iText\bin\Release\netcoreapp2.1\iText.runtimeconfig.dev.json
+C:\Users\kxeil\source\repos\iText\iText\bin\Release\netcoreapp2.1\iText.dll
+C:\Users\kxeil\source\repos\iText\iText\bin\Release\netcoreapp2.1\iText.pdb
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.csproj.CoreCompileInputs.cache
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.RazorAssemblyInfo.cache
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.RazorAssemblyInfo.cs
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.AssemblyInfoInputs.cache
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.AssemblyInfo.cs
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.RazorTargetAssemblyInfo.cache
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.dll
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.pdb
+C:\Users\kxeil\source\repos\iText\iText\obj\Release\netcoreapp2.1\iText.csprojAssemblyReference.cache

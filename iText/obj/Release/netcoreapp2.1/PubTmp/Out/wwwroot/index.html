@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			crossorigin="anonymous"></script>
+
+	<script src="utilities.js" type="text/javascript"></script>
+	<link href="Styles.css" rel="stylesheet" type="text/css" />
+	<title>iText Project</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row" style="padding-top:10px;padding-bottom:10px;">
+			<div class="col-3 btn-group">
+				<button id="show-asposePdf" type="button" class="btn btn-info active toggle-button">iText Tool</button>
+			</div>
+		</div>
+		<div class="row" style="padding-top:30px;height:130px;background-color:lightgoldenrodyellow">
+			<div class="col-2">
+				<p style="font-weight:bold">Create PDF file with Custom Text</p>
+			</div>
+			<div class="col-2">
+				<input type="text" class="form-control" id="fileName" placeholder="Source file name" />
+			</div>
+			<div class="col-4">
+				<textarea class="form-control" id="fileText" rows="3" placeholder="Source file text"></textarea>
+			</div>
+			<div class="col-2">
+				<span id="createResponseMsg"></span>
+				<div id="ath-spinner-0" class="loader disp-n" style="text-align:center;margin:auto">
+
+				</div>
+			</div>
+			<div class="col-2">
+				<button class="btn btn-primary" id="createHWBtn" style="width:150px;">Create Pdf</button>
+			</div>
+		</div>
+		<div class="row" style="padding-top:30px;height:130px;background-color:lightgoldenrodyellow">
+			<div class="col-2">
+				<p style="font-weight:bold">Merge Uploaded Files <span style="font-weight:bold;color:red">with Table Of Contents</span></p>
+			</div>
+			<div class="col-4">
+				<input type="text" class="form-control disp-n" id="fileNameWithContentsConc" placeholder="Destination file name" />
+			</div>
+			<div class="col-4">
+				<span id="concatenateResponseMsg"></span>
+				<div id="ath-spinner-2" class="loader disp-n" style="text-align:center;margin:auto">
+
+				</div>
+			</div>
+			<div class="col-2">
+				<button class="btn btn-primary" id="concatenateWithContnetsBtn" style="width:150px;">Concatenate Files</button>
+			</div>
+		</div>
+		<div class="row" style="padding-top:30px;height:130px;background-color:lightgoldenrodyellow">
+			<div class="col-2">
+				<p style="font-weight:bold">Create PDF file <span style="font-weight:bold;color:red">with Nested Bookmarks</span></p>
+			</div>
+			<div class="col-4">
+				<input type="text" class="form-control" id="fileNameNB" placeholder="Source file name" />
+			</div>
+			<div class="col-4">
+				<span id="createNBResponseMsg"></span>
+				<div id="ath-spinner-3" class="loader disp-n" style="text-align:center;margin:auto">
+
+				</div>
+			</div>
+			<div class="col-2">
+				<button class="btn btn-primary" id="createNBBtn" style="width:150px;">Create File</button>
+			</div>
+		</div>
+		<div class="row" style="padding-top:30px;height:130px;background-color:lightgoldenrodyellow">
+			<div class="col-2">
+				<p style="font-weight:bold">Create PDF file: <b>File_With_BK.pdf</b><span style="font-weight:bold;color:red"> with 1 Bookmark per page</span></p>
+			</div>
+			<div class="col-6">
+				<input type="text" class="form-control" id="fileNameBK" placeholder="Source file name" />
+			</div>
+			<div class="col-2">
+				<span id="createBKResponseMsg"></span>
+				<div id="ath-spinner-4" class="loader disp-n" style="text-align:center;margin:auto">
+
+				</div>
+			</div>
+			<div class="col-2">
+				<button class="btn btn-primary" id="createBKBtn" style="width:150px;">Create File</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
